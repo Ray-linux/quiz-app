@@ -24,7 +24,7 @@ app.use('/api', router)
 
 app.get('/', (req, res)=>{
     try{
-        res.json("get request")
+        res.send("Hello vercel")
     }catch(e){
         res.json(e)
     }
